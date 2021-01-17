@@ -1,0 +1,51 @@
+.brand{
+	font-weight: 800;
+	color: #007bff;
+}
+.image-container {
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+	opacity: 1;
+}
+
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+.display-card{
+	position: relative;
+	overflow: hidden;
+}
+.nominated{
+	background: #ccc;
+}
+.button{
+	position: absolute;
+	bottom: 0;
+	right: 0px;
+	left: 0px;
+}
+.section-header{
+	color: #007bff;
+	margin-top: 20px;
+}
+.spinner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
